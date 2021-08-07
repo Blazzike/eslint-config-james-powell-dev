@@ -40,7 +40,9 @@ module.exports = {
      *
      * enforce camelcase naming convention
      */
-    camelcase: ['error'],
+    camelcase: ['error', {
+      properties: 'never',
+    }],
 
     /*
      * https://eslint.org/docs/rules/capitalized-comments
