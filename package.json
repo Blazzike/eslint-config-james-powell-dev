@@ -7,8 +7,9 @@
   "author": "James Powell (https://jamespowell.dev/)",
   "license": "MIT",
   "scripts": {
-    "test": "eslint **/*.js && eslint-find-rules --unused",
-    "fix": "eslint **/*.js --fix",
+    "lint": "eslint **/*.js",
+    "test": "yarn lint && eslint-find-rules --unused && eslint-find-rules --unused vue2.js",
+    "fix": "yarn lint --fix",
     "publish": "yarn test && yarn publish"
   },
   "peerDependencies": {
