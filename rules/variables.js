@@ -135,7 +135,7 @@ module.exports = {
      *
      * disallow the use of `undefined` as an identifier
      */
-    'no-undefined': 'error',
+    'no-undefined': 'off',
 
     /*
      * https://eslint.org/docs/rules/no-unused-vars
