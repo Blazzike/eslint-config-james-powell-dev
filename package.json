@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-james-powell-dev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint style by jamespowell.dev for React, Vue & vanilla JS projects",
   "main": "index.js",
   "repository": "https://github.com/Blazzike/eslint-config-james-powell-dev",
@@ -12,7 +12,7 @@
     "test-vue2": "eslint-find-rules --unused vue2.js",
     "test-vue": "eslint-find-rules --unused vue.js",
     "fix": "yarn lint --fix",
-    "publish": "yarn test && yarn publish"
+    "publish": "yarn test"
   },
   "peerDependencies": {
     "eslint": "^7.x"

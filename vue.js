@@ -8,6 +8,7 @@ module.exports = {
     './rules/vue/uncategorized',
     './rules/vue/extension',
   ].map(require.resolve),
+  parser: 'vue-eslint-parser',
   parserOptions: {
     sourceType: 'module',
     parser: 'babel-eslint',
