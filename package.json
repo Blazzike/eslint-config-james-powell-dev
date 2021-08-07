@@ -10,6 +10,7 @@
     "lint": "eslint **/*.js",
     "test": "yarn lint && eslint-find-rules --unused",
     "test-vue2": "eslint-find-rules --unused vue2.js",
+    "test-vue": "eslint-find-rules --unused vue.js",
     "fix": "yarn lint --fix",
     "publish": "yarn test && yarn publish"
   },

@@ -1,6 +1,13 @@
 module.exports = {
   rules: {
     /*
+     * https://eslint.vuejs.org/rules/block-lang.html
+     *
+     * disallow use other than available lang
+     */
+    'vue/block-lang': 'off',
+
+    /*
      * https://eslint.vuejs.org/rules/block-tag-newline.html
      *
      * enforce line breaks after opening and before closing block-level tags
@@ -85,6 +92,13 @@ module.exports = {
     'vue/no-boolean-default': 'off',
 
     /*
+     * https://eslint.vuejs.org/rules/no-deprecated-v-is.html
+     *
+     * disallow deprecated v-is directive (in Vue.js 3.1.0+)
+     */
+    'vue/no-deprecated-v-is': 'error',
+
+    /*
      * https://eslint.vuejs.org/rules/no-duplicate-attr-inheritance.html
      *
      * enforce inheritAttrs to be set to false when using v-bind="$attrs"
@@ -97,6 +111,13 @@ module.exports = {
      * disallow the <template> <script> <style> block to be empty
      */
     'vue/no-empty-component-block': 'off',
+
+    /*
+     * https://eslint.vuejs.org/rules/no-export-in-script-setup.html
+     *
+     * disallow export in <script setup>
+     */
+    'vue/no-export-in-script-setup': 'error',
 
     /*
      * https://eslint.vuejs.org/rules/no-invalid-model-keys.html
@@ -190,6 +211,13 @@ module.exports = {
     'vue/no-template-target-blank': 'warn',
 
     /*
+     * https://eslint.vuejs.org/rules/no-this-in-before-route-enter.html
+     *
+     * disallow this usage in a beforeRouteEnter method
+     */
+    'vue/no-this-in-before-route-enter': 'error',
+
+    /*
      * https://eslint.vuejs.org/rules/no-unregistered-components.html
      *
      * disallow using components that are not registered inside templates
@@ -218,6 +246,13 @@ module.exports = {
      * disallow unused refs
      */
     'vue/no-unused-refs': 'error',
+
+    /*
+     * https://eslint.vuejs.org/rules/no-use-computed-property-like-method.html
+     *
+     * disallow use computed property like method
+     */
+    'vue/no-use-computed-property-like-method': 'error',
 
     /*
      * https://eslint.vuejs.org/rules/no-useless-mustaches.html
@@ -253,6 +288,13 @@ module.exports = {
      * require type definitions in emits
      */
     'vue/require-emit-validator': 'error',
+
+    /*
+     * https://eslint.vuejs.org/rules/require-expose.html
+     *
+     * require declare public properties using expose
+     */
+    'vue/require-expose': 'off',
 
     /*
      * https://eslint.vuejs.org/rules/require-name-property.html
@@ -302,6 +344,20 @@ module.exports = {
      * enforce or forbid parentheses after method calls without arguments in v-on directives
      */
     'vue/v-on-function-call': 'error',
+
+    /*
+     * https://eslint.vuejs.org/rules/valid-define-emits.html
+     *
+     * enforce valid defineEmits compiler macro
+     */
+    'vue/valid-define-emits': 'error',
+
+    /*
+     * https://eslint.vuejs.org/rules/valid-define-props.html
+     *
+     * enforce valid defineProps compiler macro
+     */
+    'vue/valid-define-props': 'error',
 
     /*
      * https://eslint.vuejs.org/rules/valid-next-tick.html
