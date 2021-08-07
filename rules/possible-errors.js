@@ -132,8 +132,10 @@ module.exports = {
      https://eslint.org/docs/rules/no-extra-parens
 
      disallow unnecessary parentheses
+
+     NOTICE: collides with no-mixed-operators rule
      */
-    'no-extra-parens': ['warn', 'all', {
+    'no-extra-parens': ['off', 'all', {
       ignoreJSX: 'multi-line'
     }],
 
