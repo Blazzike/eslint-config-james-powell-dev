@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint **/*.js",
-    "test": "yarn lint && eslint-find-rules --unused && eslint-find-rules --unused vue2.js",
+    "test": "yarn lint && eslint-find-rules --unused",
+    "test-vue2": "eslint-find-rules --unused vue2.js",
     "fix": "yarn lint --fix",
     "publish": "yarn test && yarn publish"
   },
