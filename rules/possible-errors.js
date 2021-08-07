@@ -12,11 +12,9 @@ module.exports = {
      *
      * enforce `return` statements in getters
      */
-    'getter-return': [
-      'error', {
-        allowImplicit: true,
-      },
-    ],
+    'getter-return': ['error', {
+      allowImplicit: true,
+    }],
 
     /*
      * https://eslint.org/docs/rules/no-async-promise-executor
@@ -137,11 +135,9 @@ module.exports = {
      *
      * NOTICE: collides with no-mixed-operators rule
      */
-    'no-extra-parens': [
-      'off', 'all', {
-        ignoreJSX: 'multi-line',
-      },
-    ],
+    'no-extra-parens': ['off', 'all', {
+      ignoreJSX: 'multi-line',
+    }],
 
     /*
      * https://eslint.org/docs/rules/no-extra-semi
@@ -288,11 +284,9 @@ module.exports = {
      *
      * disallow use of optional chaining in contexts where the `undefined` value is not allowed
      */
-    'no-unsafe-optional-chaining': [
-      'error', {
-        disallowArithmeticOperators: true,
-      },
-    ],
+    'no-unsafe-optional-chaining': ['error', {
+      disallowArithmeticOperators: true,
+    }],
 
     /*
      * https://eslint.org/docs/rules/no-useless-backreference

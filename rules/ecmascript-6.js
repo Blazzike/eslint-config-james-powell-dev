@@ -33,12 +33,10 @@ module.exports = {
      *
      * enforce consistent spacing around `*` operators in generator functions
      */
-    'generator-star-spacing': [
-      'error', {
-        before: false,
-        after: true,
-      },
-    ],
+    'generator-star-spacing': ['error', {
+      before: false,
+      after: true,
+    }],
 
     /*
      * https://eslint.org/docs/rules/no-class-assign
@@ -87,14 +85,12 @@ module.exports = {
      *
      * disallow specified names in exports
      */
-    'no-restricted-exports': [
-      'error', {
-        restrictedNamedExports: [
-          'default',
-          'then',
-        ],
-      },
-    ],
+    'no-restricted-exports': ['error', {
+      restrictedNamedExports: [
+        'default',
+        'then',
+      ],
+    }],
 
     /*
      * https://eslint.org/docs/rules/no-restricted-imports

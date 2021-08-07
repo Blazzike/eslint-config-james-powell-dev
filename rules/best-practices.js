@@ -12,11 +12,9 @@ module.exports = {
      *
      * enforce `return` statements in callbacks of array methods
      */
-    'array-callback-return': [
-      'error', {
-        allowImplicit: true,
-      },
-    ],
+    'array-callback-return': ['error', {
+      allowImplicit: true,
+    }],
 
     /*
      * https://eslint.org/docs/rules/block-scoped-var
@@ -93,11 +91,9 @@ module.exports = {
      *
      * require the use of `===` and `!==`
      */
-    eqeqeq: [
-      'error', 'always', {
-        null: 'ignore',
-      },
-    ],
+    eqeqeq: ['error', 'always', {
+      null: 'ignore',
+    }],
 
     /*
      * https://eslint.org/docs/rules/grouped-accessor-pairs
@@ -160,11 +156,9 @@ module.exports = {
      *
      * disallow `else` blocks after `return` statements in `if` statements
      */
-    'no-else-return': [
-      'error', {
-        allowElseIf: false,
-      },
-    ],
+    'no-else-return': ['error', {
+      allowElseIf: false,
+    }],
 
     /*
      * https://eslint.org/docs/rules/no-empty-function
@@ -241,11 +235,9 @@ module.exports = {
      *
      * disallow shorthand type conversions
      */
-    'no-implicit-coercion': [
-      'error', {
-        number: false,
-      },
-    ],
+    'no-implicit-coercion': ['error', {
+      number: false,
+    }],
 
     /*
      * https://eslint.org/docs/rules/no-implicit-globals
@@ -386,41 +378,52 @@ module.exports = {
      * disallow certain properties on certain objects
      */
     'no-restricted-properties': [
-      'error', {
+      'error',
+
+      {
         object: 'arguments',
         property: 'callee',
         message: 'arguments.callee is deprecated',
-      }, {
+      },
+      {
         object: 'global',
         property: 'isFinite',
         message: 'Please use Number.isFinite instead',
-      }, {
+      },
+      {
         object: 'self',
         property: 'isFinite',
         message: 'Please use Number.isFinite instead',
-      }, {
+      },
+      {
         object: 'window',
         property: 'isFinite',
         message: 'Please use Number.isFinite instead',
-      }, {
+      },
+      {
         object: 'global',
         property: 'isNaN',
         message: 'Please use Number.isNaN instead',
-      }, {
+      },
+      {
         object: 'self',
         property: 'isNaN',
         message: 'Please use Number.isNaN instead',
-      }, {
+      },
+      {
         object: 'window',
         property: 'isNaN',
         message: 'Please use Number.isNaN instead',
-      }, {
+      },
+      {
         property: '__defineGetter__',
         message: 'Please use Object.defineProperty instead.',
-      }, {
+      },
+      {
         property: '__defineSetter__',
         message: 'Please use Object.defineProperty instead.',
-      }, {
+      },
+      {
         object: 'Math',
         property: 'pow',
         message: 'Use the exponentiation operator (**) instead.',
@@ -565,11 +568,9 @@ module.exports = {
      *
      * require using Error objects as Promise rejection reasons
      */
-    'prefer-promise-reject-errors': [
-      'error', {
-        allowEmptyReject: true,
-      },
-    ],
+    'prefer-promise-reject-errors': ['error', {
+      allowEmptyReject: true,
+    }],
 
     /*
      * https://eslint.org/docs/rules/prefer-regex-literals
