@@ -1,30 +1,30 @@
 module.exports = {
   rules: {
     /*
-     https://eslint.org/docs/rules/init-declarations
-
-     require or disallow initialization in variable declarations
+     * https://eslint.org/docs/rules/init-declarations
+     *
+     * require or disallow initialization in variable declarations
      */
     'init-declarations': 'off',
 
     /*
-     https://eslint.org/docs/rules/no-delete-var
-
-     disallow deleting variables
+     * https://eslint.org/docs/rules/no-delete-var
+     *
+     * disallow deleting variables
      */
     'no-delete-var': 'error',
 
     /*
-     https://eslint.org/docs/rules/no-label-var
-
-     disallow labels that share a name with a variable
+     * https://eslint.org/docs/rules/no-label-var
+     *
+     * disallow labels that share a name with a variable
      */
     'no-label-var': 'error',
 
     /*
-     https://eslint.org/docs/rules/no-restricted-globals
-
-     disallow specified global variables
+     * https://eslint.org/docs/rules/no-restricted-globals
+     *
+     * disallow specified global variables
      */
     'no-restricted-globals': [
       'error',
@@ -38,7 +38,10 @@ module.exports = {
         message: 'Use Number.isNaN instead',
       },
 
-      // thank you https://github.com/facebook/create-react-app/blob/main/packages/confusing-browser-globals
+      /*
+       * thank you
+       * https://github.com/facebook/create-react-app/blob/main/packages/confusing-browser-globals
+       */
       'addEventListener',
       'blur',
       'close',
@@ -100,51 +103,51 @@ module.exports = {
     ],
 
     /*
-     https://eslint.org/docs/rules/no-shadow
-
-     disallow variable declarations from shadowing variables declared in the outer scope
+     * https://eslint.org/docs/rules/no-shadow
+     *
+     * disallow variable declarations from shadowing variables declared in the outer scope
      */
     'no-shadow': 'error',
 
     /*
-     https://eslint.org/docs/rules/no-shadow-restricted-names
-
-     disallow identifiers from shadowing restricted names
+     * https://eslint.org/docs/rules/no-shadow-restricted-names
+     *
+     * disallow identifiers from shadowing restricted names
      */
     'no-shadow-restricted-names': 'error',
 
     /*
-     https://eslint.org/docs/rules/no-undef
-
-     disallow the use of undeclared variables unless mentioned in `/!* global *!/` comments
+     * https://eslint.org/docs/rules/no-undef
+     *
+     * disallow the use of undeclared variables unless mentioned in `/!* global *!/` comments
      */
     'no-undef': 'error',
 
     /*
-     https://eslint.org/docs/rules/no-undef-init
-
-     disallow initializing variables to `undefined`
+     * https://eslint.org/docs/rules/no-undef-init
+     *
+     * disallow initializing variables to `undefined`
      */
     'no-undef-init': 'error',
 
     /*
-     https://eslint.org/docs/rules/no-undefined
-
-     disallow the use of `undefined` as an identifier
+     * https://eslint.org/docs/rules/no-undefined
+     *
+     * disallow the use of `undefined` as an identifier
      */
     'no-undefined': 'error',
 
     /*
-     https://eslint.org/docs/rules/no-unused-vars
-
-     disallow unused variables
+     * https://eslint.org/docs/rules/no-unused-vars
+     *
+     * disallow unused variables
      */
     'no-unused-vars': 'error',
 
     /*
-     https://eslint.org/docs/rules/no-use-before-define
-
-     disallow the use of variables before they are defined
+     * https://eslint.org/docs/rules/no-use-before-define
+     *
+     * disallow the use of variables before they are defined
      */
     'no-use-before-define': 'error',
   },
