@@ -15,16 +15,18 @@
     "publish": "yarn test"
   },
   "peerDependencies": {
-    "eslint": "^7.x"
+    "eslint": "^7.x",
+    "@babel/core": "^7.x",
+    "@babel/eslint-parser": "^7.x"
   },
   "dependencies": {
-    "@babel/core": "^7.15.0",
-    "@babel/eslint-parser": "^7.15.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-vue": "^7.15.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-find-rules": "^3.6.1"
+    "eslint-find-rules": "^3.6.1",
+    "@babel/core": "^7.15.0",
+    "@babel/eslint-parser": "^7.15.0"
   }
 }
