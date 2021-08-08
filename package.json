@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-james-powell-dev",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint style by jamespowell.dev for React, Vue & vanilla JS projects",
   "main": "index.js",
   "repository": "https://github.com/Blazzike/eslint-config-james-powell-dev",
@@ -25,8 +25,8 @@
     "@babel/core": "^7.15.0",
     "@babel/eslint-parser": "^7.15.0",
     "eslint": "^7.32.0",
+    "eslint-find-rules": "^3.6.1",
     "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-vue": "^7.15.1",
-    "eslint-find-rules": "^3.6.1"
+    "eslint-plugin-vue": "^7.15.1"
   }
 }
