@@ -165,7 +165,7 @@ module.exports = {
      *
      * disallow variable or `function` declarations in nested blocks
      */
-    'no-inner-declarations': 'error',
+    'no-inner-declarations': 'off',
 
     /*
      * https://eslint.org/docs/rules/no-invalid-regexp
