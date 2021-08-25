@@ -201,7 +201,7 @@ module.exports = {
      *
      * disallow static inline style attributes
      */
-    'vue/no-static-inline-styles': 'error',
+    'vue/no-static-inline-styles': 'off',
 
     /*
      * https://eslint.vuejs.org/rules/no-template-target-blank.html
