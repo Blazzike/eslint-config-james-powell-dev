@@ -337,7 +337,7 @@ module.exports = {
      *
      * enforce a particular style for multiline comments
      */
-    'multiline-comment-style': 'error',
+    'multiline-comment-style': 'off',
 
     /*
      * https://eslint.org/docs/rules/multiline-ternary
