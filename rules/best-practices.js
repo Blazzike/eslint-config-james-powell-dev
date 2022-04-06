@@ -620,5 +620,19 @@ module.exports = {
      * require or disallow "Yoda" conditions
      */
     yoda: 'error',
+
+    /*
+     * https://eslint.org/docs/rules/prefer-object-has-own
+     *
+     * disallow use of `Object.prototype.hasOwnProperty.call()` and prefer use of `Object.hasOwn()`
+     */
+    'prefer-object-has-own': 'error',
+
+    /*
+     * https://eslint.org/docs/rules/no-unused-private-class-members
+     *
+     * disallow unused private class members
+     */
+    'no-unused-private-class-members': 'error',
   },
 };
