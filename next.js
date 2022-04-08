@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     require.resolve('./react'),
   ],
+  plugins: ['next'],
   rules: {
     /*
      * https://nextjs.org/docs/messages/google-font-display
