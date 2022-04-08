@@ -7,9 +7,11 @@ module.exports = {
     './rules/stylistic-issues',
     './rules/variables',
   ].map(require.resolve),
-  parser: '@babel/eslint-parser',
   parserOptions: {
-    requireConfigFile: false,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   env: {
     es6: true,
