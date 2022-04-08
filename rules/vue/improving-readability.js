@@ -63,11 +63,7 @@ module.exports = {
      *
      * enforce the maximum number of attributes per line
      */
-    'vue/max-attributes-per-line': ['error', {
-      singleline: {
-        max: 3,
-      },
-    }],
+    'vue/max-attributes-per-line': 'error',
 
     /*
      * https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html

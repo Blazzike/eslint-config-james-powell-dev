@@ -59,14 +59,14 @@ module.exports = {
      *
      * Require or prevent a new line after jsx elements and expressions.
      */
-    'react/jsx-newline': 'off',
+    'react/jsx-newline': 'error',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
      *
      * Prevents usage of Function.prototype.bind and arrow functions in React component props
      */
-    'react/jsx-no-bind': 'error',
+    'react/jsx-no-bind': 'off',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
@@ -199,6 +199,14 @@ module.exports = {
      *
      * Prevent missing parentheses around multilines JSX
      */
-    'react/jsx-wrap-multilines': 'error',
+    'react/jsx-wrap-multilines': ['error', {
+      declaration: 'parens-new-line',
+      assignment: 'parens-new-line',
+      return: 'parens-new-line',
+      arrow: 'parens-new-line',
+      condition: 'parens-new-line',
+      logical: 'parens-new-line',
+      prop: 'parens-new-line',
+    }],
   },
 };

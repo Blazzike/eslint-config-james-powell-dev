@@ -666,6 +666,16 @@ module.exports = {
         prev: '*',
         next: 'continue',
       },
+      {
+        blankLine: 'always',
+        prev: 'multiline-const',
+        next: '*',
+      },
+      {
+        blankLine: 'always',
+        prev: 'multiline-let',
+        next: '*',
+      },
     ],
 
     /*

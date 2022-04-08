@@ -290,14 +290,14 @@ module.exports = {
      *
      * Prevent missing props validation in a React component definition
      */
-    'react/prop-types': 'error',
+    'react/prop-types': 'warn',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
      *
      * Prevent missing React when using JSX
      */
-    'react/react-in-jsx-scope': 'error',
+    'react/react-in-jsx-scope': 'off',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
@@ -431,7 +431,7 @@ module.exports = {
      *
      * Restrict file extensions that may contain JSX
      */
-    'react/jsx-filename-extension': 'error',
+    'react/jsx-filename-extension': 'off',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
@@ -439,5 +439,54 @@ module.exports = {
      * Ensure proper position of the first property in JSX
      */
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
+
+    /*
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/hook-use-state.md
+     *
+     * Ensure destructuring and symmetric naming of useState hook value and setter variables
+     */
+    'react/hook-use-state': 'error',
+
+    /*
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/iframe-missing-sandbox.md
+     *
+     * Enforce sandbox attribute on iframe elements
+     */
+    'react/iframe-missing-sandbox': 'warn',
+
+    /*
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-arrow-function-lifecycle.md
+     *
+     * Lifecycle methods should be methods on the prototype, not class fields
+     */
+    'react/no-arrow-function-lifecycle': 'error',
+
+    /*
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-arrow-function-lifecycle.md
+     *
+     * Prevent usage of invalid attributes
+     */
+    'react/no-invalid-html-attribute': 'warn',
+
+    /*
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-namespace.md
+     *
+     * Enforce that namespaces are not used in React elements
+     */
+    'react/no-namespace': 'warn',
+
+    /*
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-exact-props.md
+     *
+     * Prefer exact proptype definitions
+     */
+    'react/prefer-exact-props': 'warn',
+
+    /*
+     * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-class-component-methods.md
+     *
+     * Prevent declaring unused methods of component class
+     */
+    'react/no-unused-class-component-methods': 'warn',
   },
 };
