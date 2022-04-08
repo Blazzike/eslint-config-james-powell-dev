@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-james-powell-dev",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "ESLint style by jamespowell.dev for React, Vue & vanilla JS projects",
   "main": "index.js",
   "repository": "https://github.com/Blazzike/eslint-config-james-powell-dev",
