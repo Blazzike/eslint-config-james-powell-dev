@@ -356,7 +356,7 @@ module.exports = {
      *
      * disallow reassigning `function` parameters
      */
-    'no-param-reassign': 'warn',
+    'no-param-reassign': 'off',
 
     /*
      * https://eslint.org/docs/rules/no-proto

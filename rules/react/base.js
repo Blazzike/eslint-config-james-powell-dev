@@ -101,7 +101,7 @@ module.exports = {
      *
      * Prevent usage of Array index in keys
      */
-    'react/no-array-index-key': 'warn',
+    'react/no-array-index-key': 'off',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
