@@ -18,12 +18,12 @@ module.exports = {
      */
     '@next/next/google-font-preconnect': 'error',
 
-    /*
-     * https://nextjs.org/docs/messages/link-passhref
-     *
-     * Enforce passHref prop usage with custom Link components
-     */
-    '@next/next/link-passhref': 'error',
+    // /*
+    //  * https://nextjs.org/docs/messages/link-passhref
+    //  *
+    //  * Enforce passHref prop usage with custom Link components
+    //  */
+    // '@next/next/link-passhref': 'error',
 
     /*
      * https://nextjs.org/docs/messages/no-css-tags
@@ -121,10 +121,10 @@ module.exports = {
      */
     '@next/next/no-server-import-in-page': 'error',
 
-    /*
-     * https://nextjs.org/docs/basic-features/eslint#eslint-plugin
-     */
-    '@next/next/no-script-in-document': 'error',
+    // /*
+    //  * https://nextjs.org/docs/basic-features/eslint#eslint-plugin
+    //  */
+    // '@next/next/no-script-in-document': 'error',
 
     /*
      * https://nextjs.org/docs/basic-features/eslint#eslint-plugin

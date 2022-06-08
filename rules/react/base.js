@@ -1,6 +1,11 @@
 /* eslint-disable max-len */
 
 module.exports = {
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
