@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['unused-imports'],
   extends: [
     './rules/best-practices',
     './rules/ecmascript-6',

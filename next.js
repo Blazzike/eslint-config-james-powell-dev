@@ -18,13 +18,6 @@ module.exports = {
      */
     '@next/next/google-font-preconnect': 'error',
 
-    // /*
-    //  * https://nextjs.org/docs/messages/link-passhref
-    //  *
-    //  * Enforce passHref prop usage with custom Link components
-    //  */
-    // '@next/next/link-passhref': 'error',
-
     /*
      * https://nextjs.org/docs/messages/no-css-tags
      *
@@ -115,16 +108,6 @@ module.exports = {
      * Use the Script component to defer loading of the script until necessary.
      */
     '@next/next/next-script-for-ga': 'error',
-
-    /*
-     * https://nextjs.org/docs/basic-features/eslint#eslint-plugin
-     */
-    '@next/next/no-server-import-in-page': 'error',
-
-    // /*
-    //  * https://nextjs.org/docs/basic-features/eslint#eslint-plugin
-    //  */
-    // '@next/next/no-script-in-document': 'error',
 
     /*
      * https://nextjs.org/docs/basic-features/eslint#eslint-plugin

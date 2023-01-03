@@ -142,7 +142,11 @@ module.exports = {
      *
      * disallow unused variables
      */
-    'no-unused-vars': 'error',
+    'no-unused-vars': 'off',
+
+    'unused-imports/no-unused-imports': 'error',
+
+    'unused-imports/no-unused-vars': ['error', { vars: 'all' }],
 
     /*
      * https://eslint.org/docs/rules/no-use-before-define
