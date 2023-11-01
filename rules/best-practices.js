@@ -634,5 +634,11 @@ module.exports = {
      * disallow unused private class members
      */
     'no-unused-private-class-members': 'error',
+
+    'logical-assignment-operators': 'off',
+    'no-constant-binary-expression': 'error',
+    'no-empty-static-block': 'error',
+    'no-new-native-nonconstructor': 'error',
+    'no-object-constructor': 'error',
   },
 };

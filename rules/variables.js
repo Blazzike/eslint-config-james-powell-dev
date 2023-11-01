@@ -148,6 +148,10 @@ module.exports = {
 
     'unused-imports/no-unused-vars': ['error', { vars: 'all' }],
 
+    'unused-imports/no-unused-imports-ts': 'error',
+
+    'unused-imports/no-unused-vars-ts': ['error', { vars: 'all' }],
+
     /*
      * https://eslint.org/docs/rules/no-use-before-define
      *

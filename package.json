@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-james-powell-dev",
-  "version": "1.0.17",
+  "version": "1.1.0",
   "description": "ESLint style by jamespowell.dev for React, Vue & vanilla JS projects",
   "main": "index.js",
   "repository": "https://github.com/Blazzike/eslint-config-james-powell-dev",
@@ -9,23 +9,22 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "test": "yarn lint && eslint-find-rules --unused",
-    "test:vue2": "eslint-find-rules --unused vue2.js",
-    "test:vue": "eslint-find-rules --unused vue.js",
     "test:react": "eslint-find-rules --unused react.js",
+    "test:solid": "eslint-find-rules --unused solid.js",
     "test:next": "eslint-find-rules --unused next.js",
     "test:typescript": "eslint-find-rules --unused typescript/index.js",
     "fix": "yarn lint --fix",
     "publish": "yarn test"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^12.x",
-    "@typescript-eslint/eslint-plugin": "^5.x",
-    "@typescript-eslint/parser": "^5.x",
+    "@next/eslint-plugin-next": "^14.x",
+    "@typescript-eslint/eslint-plugin": "^6.x",
+    "@typescript-eslint/parser": "^6.x",
     "eslint-plugin-import": "^2.x",
     "eslint-plugin-react": "^7.x",
     "eslint-plugin-react-hooks": "^4.x",
-    "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-plugin-vue": "^8.x"
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "eslint-plugin-solid": "^0.13.0"
   },
   "peerDependencies": {
     "eslint": "^8.x"

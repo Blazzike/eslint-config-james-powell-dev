@@ -3,7 +3,7 @@
 module.exports = {
   settings: {
     react: {
-      version: 'detect',
+      version: '18.x',
     },
   },
   rules: {
@@ -33,7 +33,7 @@ module.exports = {
      *
      * Enforce consistent usage of destructuring assignment of props, state, and context
      */
-    'react/destructuring-assignment': 'error',
+    'react/destructuring-assignment': 'off',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
@@ -295,7 +295,7 @@ module.exports = {
      *
      * Prevent missing props validation in a React component definition
      */
-    'react/prop-types': 'warn',
+    'react/prop-types': 'off',
 
     /*
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
